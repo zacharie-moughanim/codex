@@ -82,6 +82,43 @@
 - Currency
   - `riyal`: ⃁
 
+- Control (Printable symbols representing non-printable characters)
+  - `nul`: ␀
+  - `soh`: ␁
+  - `stx`: ␂
+  - `etx`: ␃
+  - `eot`: ␄
+  - `enq`: ␅
+  - `ack`: ␆
+  - `bel`: ␇
+  - `bs`: ␈
+  - `ht`: ␉
+  - `lf`: ␊
+  - `vt`: ␋
+  - `ff`: ␌
+  - `cr`: ␍
+  - `so`: ␎
+  - `si`: ␏
+  - `dle`: ␐
+  - `dc.one`: ␑
+  - `dc.two`: ␒
+  - `dc.three`: ␓
+  - `dc.four`: ␔
+  - `nak`: ␕
+  - `syn`: ␖
+  - `etb`: ␗
+  - `can`: ␘
+  - `em`: ␙
+  - `sub`: ␚
+  - `esc`: ␛
+  - `fs`: ␜
+  - `gs`: ␝
+  - `rs`: ␞
+  - `us`: ␟
+  - `sp`: ␠
+  - `del`: ␡
+  - `nl`: ␤
+
 - Keyboard labels (in submodule `keyboard`)
   - `linefeed`: ↴
   - `home` ↸
@@ -181,43 +218,6 @@
   - `power.sleep`: ⏾
   - `pageup`: ⭻
   - `pagedown`: ⭽
-
-- Control (Printable symbols representing non-printable characters)
-  - `nul`: ␀
-  - `soh`: ␁
-  - `stx`: ␂
-  - `etx`: ␃
-  - `eot`: ␄
-  - `enq`: ␅
-  - `ack`: ␆
-  - `bel`: ␇
-  - `bs`: ␈
-  - `ht`: ␉
-  - `lf`: ␊
-  - `vt`: ␋
-  - `ff`: ␌
-  - `cr`: ␍
-  - `so`: ␎
-  - `si`: ␏
-  - `dle`: ␐
-  - `dc.one`: ␑
-  - `dc.two`: ␒
-  - `dc.three`: ␓
-  - `dc.four`: ␔
-  - `nak`: ␕
-  - `syn`: ␖
-  - `etb`: ␗
-  - `can`: ␘
-  - `em`: ␙
-  - `sub`: ␚
-  - `esc`: ␛
-  - `fs`: ␜
-  - `gs`: ␝
-  - `rs`: ␞
-  - `us`: ␟
-  - `sp`: ␠
-  - `del`: ␡
-  - `nl`: ␤
 
 ### New in `emoji`
 
