@@ -1266,9 +1266,6 @@ errorbar
   .circle.stroked ⧲
   .circle.filled ⧳
 
-// Keyboard labels.
-spacebar ␣
-
 gender {
   female ♀\vs{text}
     .double ⚢
@@ -1322,4 +1319,115 @@ control {
   sp ␠ // SPace
   del ␡ // DELete
   nl ␤ // New Line
+}
+
+// Characters commonly used as keyboards labels
+keyboard {
+  linefeed ↴
+  return.alt ↵
+  home ↸ // Several symbol stands for home in keyboard groups in unicode. Not sure all of them are actually used as homes, neither of the variant names suggested here.
+    .alt ⭶ // Same remark as for tabs
+    .corner ⇱
+    .phone ⌂
+  end ⇲
+    .alt ⭸ // Same remark as for tabs
+  tab ↹
+    .alt ⭾ // About all alts here: both are referenced as "left/right/... tab", maybe only keep the first, for the others are actually math arrows resembling tabulations
+    .v ⭿ // About this one: only what is here named as tab.alt has a vertical counterpart, not tab
+    .l ⇤
+    .l.alt ⭰
+    .r ⇥
+    .r.alt ⭲
+    .t ⤒
+    .t.alt ⭱
+    .b ⤓
+    .b.alt ⭳
+  pageup ⇞
+  pagedown ⇟
+  shift ⇧
+  capslock ⇪
+    .pedestal ⇫
+    .pedestal.struck ⇬
+    .struck ⮸ // Does not actually correspond to struck arrows
+  numlock ⇭
+  scroll ⇳
+  space ␣
+  // Not sure if it's pertinent to have both del and erase as two different names
+  // However erase to the right and to the left are similar enough to be variants of a name
+  // whereas they actually refer to two different keys, namely delete and erase
+  del ␥
+  cmd ⌘
+  enter ⌤
+    .alt ⎆
+  option ⌥ // apparently used as alt, should it also be alt.alt ?
+  erase
+    .r ⌦
+    .l ⌫
+  clear ⌧
+  keyboard ⌨ // not convinced it should be here
+    .mouse 🖦
+    .wired 🖮
+  insert ⎀
+  underline
+    .continuous ⎁
+    .discontinuous ⎂
+  emph ⎃
+  center ⎅
+  alt ⎇
+  control ⎈
+  break ⎊
+  esc ⎋
+    .alt ⮹
+  undo ⎌
+  decimalsep ⎖
+  prevpage ⎗
+  nextpage ⎘
+  printscreen ⎙
+  clearscreen ⎚
+  return ⏎ // TODO
+    .l ⮐
+    .r ⮑
+  newline
+    .l ⮒
+    .r ⮓
+  eject ⏏
+  // Music/Video player buttons
+  forward ⏵
+    .fast ⏩
+  backwards ⏴
+    .fast ⏪
+  nexttrack ⏭
+  prevtrack ⏮
+  playpausetoggle ⏯
+  alarm ⏰
+  stopwatch ⏱
+  timer ⏲
+  hourglass ⏳
+  increase ⏶
+  decrease ⏷
+  pause ⏸
+    .alt ⎉
+  stop ⏹
+  record ⏺
+  shuffle 🔀
+  repeat 🔁
+    .once 🔂
+  reload 🔃
+    .alt 🔄
+  // Adjust sound and brightness
+  brightness
+    .lower 🔅
+    .higher 🔆
+  speaker 🔈
+    .mute 🔇
+    .lower 🔉
+    .higher 🔊
+  // Power symbols
+  power ⏻
+    .on ⏽
+    .off ⭘
+    .on.off ⏼
+    .sleep ⏾
+  pageup ⭻
+  pagedown ⭽
 }
