@@ -1360,7 +1360,7 @@ keyboard {
     .alt ⎆
   option ⌥
   clear ⌧
-  keyboard ⌨
+  keyboard ⌨\vs{text}
     .mouse 🖦
     .wired 🖮
   insert ⎀
@@ -1391,22 +1391,22 @@ keyboard {
   eject ⏏
   // Music/Video player buttons
   forward ⏵
-    .fast ⏩
+    .fast ⏩\vs{text}
   backwards ⏴
-    .fast ⏪
-  nexttrack ⏭
-  prevtrack ⏮
-  playpausetoggle ⏯
-  alarm ⏰
-  stopwatch ⏱
-  timer ⏲
-  hourglass ⏳
+    .fast ⏪\vs{text}
+  nexttrack ⏭\vs{text}
+  prevtrack ⏮\vs{text}
+  playpausetoggle ⏯\vs{text}
+  alarm ⏰\vs{text}
+  stopwatch ⏱\vs{text}
+  timer ⏲\vs{text}
+  hourglass ⏳\vs{text}
   increase ⏶
   decrease ⏷
-  pause ⏸
+  pause ⏸\vs{text}
     .alt ⎉
-  stop ⏹
-  record ⏺
+  stop ⏹\vs{text}
+  record ⏺\vs{text}
   shuffle 🔀
   repeat 🔁
     .once 🔂
@@ -1416,7 +1416,7 @@ keyboard {
   brightness
     .decrease 🔅
     .increase 🔆
-  speaker 🔈
+  speaker 🔈\vs{text}
     .mute 🔇
     .lower 🔉
     .higher 🔊
