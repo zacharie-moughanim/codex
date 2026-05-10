@@ -5,6 +5,7 @@
 ### General changes
 
 - Trivially updated to Unicode 17.0.0
+- Added numeral systems API under the `numeral-systems` feature flag
 
 ### New in `sym`
 
@@ -24,6 +25,8 @@
   - `gt.arc.eq` ⪩
   - `lt.arc`: ⪦
   - `lt.arc.eq`: ⪨
+  - `mapsfrom`: ↤
+  - `mapsfrom.long` ⟻
   - `subset.approx`: ⫉
   - `subset.closed`: ⫏
   - `subset.closed.eq`: ⫑
@@ -52,6 +55,13 @@
   - `lt.closed.eq.not`: ⋬
   - `lt.closed.not`: ⋪
 
+- Decorated mathematical symbols
+  - `plus.hat`: ⨣
+  - `approx.hat`: ⩯
+  - `lt.quest`: ⩻
+  - `gt.quest`: ⩼
+  - `eq.ast`: ⩮
+
 - Miscellaneous technical
   - `bowtie.stroked`: ⋈
   - `bowtie.stroked.big`: ⨝
@@ -61,6 +71,13 @@
   - `bowtie.filled`: ⧓
   - `bowtie.filled.l`: ⧑
   - `bowtie.filled.r`: ⧒
+
+- Arrows
+  - `arrow.tr.bar`: 🢹
+  - `arrow.br.bar`: 🢺
+  - `arrow.tl.bar`: 🢸
+  - `arrow.bl.bar`: 🢻
+  - `arrows.rl.long`: 🣐
 
 - Currency
   - `riyal`: ⃁
@@ -107,14 +124,14 @@
 
 ### New in `emoji`
 
-- bigfoot: 🫈
-- dancing.ballet: 🧑‍🩰
-- face.distorted: 🫪
-- fightcloud: 🫯
-- landslide: 🛘
-- orca: 🫍
-- treasure: 🪎
-- trombone: 🪊
+- `bigfoot`: 🫈
+- `dancing.ballet`: 🧑‍🩰
+- `face.distorted`: 🫪
+- `fightcloud`: 🫯
+- `landslide`: 🛘
+- `orca`: 🫍
+- `treasure`: 🪎
+- `trombone`: 🪊
 
 ### Deprecations in `sym`
 
