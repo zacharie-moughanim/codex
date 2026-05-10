@@ -1388,7 +1388,7 @@ keyboard {
     .alt ↵
     .l ⮒
     .r ⮓
-  eject ⏏
+  eject ⏏\vs{text}
   // Music/Video player buttons
   forward ⏵
     .fast ⏩\vs{text}
