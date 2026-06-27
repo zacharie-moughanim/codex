@@ -1324,10 +1324,6 @@ control {
 // Characters commonly used as keyboards labels
 keyboard {
   linefeed ↴
-  home ↸
-    .alt ⭶
-    .corner ⇱
-    .phone ⌂
   end ⇲
     .alt ⭸
   tab ↹
@@ -1388,44 +1384,4 @@ keyboard {
     .alt ↵
     .l ⮒
     .r ⮓
-  eject ⏏\vs{text}
-  // Music/Video player buttons
-  forward ⏵
-    .fast ⏩\vs{text}
-  backwards ⏴
-    .fast ⏪\vs{text}
-  nexttrack ⏭\vs{text}
-  prevtrack ⏮\vs{text}
-  playpausetoggle ⏯\vs{text}
-  alarm ⏰\vs{text}
-  stopwatch ⏱\vs{text}
-  timer ⏲\vs{text}
-  hourglass ⏳\vs{text}
-  increase ⏶
-  decrease ⏷
-  pause ⏸\vs{text}
-    .alt ⎉
-  stop ⏹\vs{text}
-  record ⏺\vs{text}
-  shuffle 🔀
-  repeat 🔁
-    .once 🔂
-  reload 🔃
-    .alt 🔄
-  // Adjust sound and brightness
-  brightness
-    .decrease 🔅
-    .increase 🔆
-  speaker 🔈\vs{text}
-    .mute 🔇
-    .lower 🔉
-    .higher 🔊
-  // Power symbols
-  power ⏻
-    .on ⏽
-    .off ⭘
-    .on.off ⏼
-    .sleep ⏾
-  pageup ⭻
-  pagedown ⭽
 }
