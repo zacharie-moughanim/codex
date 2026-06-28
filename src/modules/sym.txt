@@ -1338,7 +1338,9 @@ keyboard {
     .b ⤓
     .b.alt ⭳
   pageup ⇞
+    .alt ⎗
   pagedown ⇟
+    .alt ⎘
   shift ⇧
   capslock ⇪
     .pedestal ⇫
@@ -1369,8 +1371,6 @@ keyboard {
     .alt ⮹
   undo ⎌
   decimalsep ⎖
-  prevpage ⎗
-  nextpage ⎘
   printscreen ⎙
   clearscreen ⎚
   return ⏎
