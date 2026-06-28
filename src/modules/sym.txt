@@ -1375,8 +1375,6 @@ keyboard {
   clearscreen ⎚
   return ⏎
     .alt ↵
-    .l ⮐
-    .r ⮑
   newline
     .alt ↵
     .l ⮒
