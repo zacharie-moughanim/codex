@@ -1338,7 +1338,6 @@ keyboard {
     .pedestal ⇫
   scroll ⇳
   space ␣
-  del ␥
   erase
     .r ⌦
     .l ⌫
