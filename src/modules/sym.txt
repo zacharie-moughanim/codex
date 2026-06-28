@@ -1344,8 +1344,6 @@ keyboard {
   shift ⇧
   capslock ⇪
     .pedestal ⇫
-    .pedestal.struck ⇬
-    .struck ⮸
   numlock ⇭
   scroll ⇳
   space ␣
