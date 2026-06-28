@@ -1328,15 +1328,8 @@ keyboard {
     .alt ⭸
   tab ↹
     .alt ⭾
-    .alt.v ⭿
-    .l ⇤
-    .l.alt ⭰
     .r ⇥
     .r.alt ⭲
-    .t ⤒
-    .t.alt ⭱
-    .b ⤓
-    .b.alt ⭳
   pageup ⇞
     .alt ⎗
   pagedown ⇟
