@@ -1346,12 +1346,6 @@ keyboard {
     .alt ⎆
   option ⌥
   clear ⌧
-  insert ⎀
-  underline
-    .continuous ⎁
-    .discontinuous ⎂
-  emph ⎃
-  center ⎅
   alt ⎇
   control ⎈
   break ⎊
