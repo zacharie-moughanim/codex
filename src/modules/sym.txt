@@ -1342,8 +1342,6 @@ keyboard {
     .r ⌦
     .l ⌫
   cmd ⌘
-  enter ⌤
-    .alt ⎆
   option ⌥
   clear ⌧
   alt ⎇
