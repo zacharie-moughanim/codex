@@ -1344,7 +1344,6 @@ keyboard {
   shift ⇧
   capslock ⇪
     .pedestal ⇫
-  numlock ⇭
   scroll ⇳
   space ␣
   del ␥
