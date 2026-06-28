@@ -1351,7 +1351,6 @@ keyboard {
     .alt ⮹
   decimalsep ⎖
   printscreen ⎙
-  clearscreen ⎚
   return ⏎
     .alt ↵
   newline
