@@ -1349,7 +1349,6 @@ keyboard {
   alt ⎇
   esc ⎋
     .alt ⮹
-  undo ⎌
   decimalsep ⎖
   printscreen ⎙
   clearscreen ⎚
