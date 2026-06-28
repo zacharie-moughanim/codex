@@ -1323,7 +1323,6 @@ control {
 
 // Characters commonly used as keyboards labels
 keyboard {
-  linefeed ↴
   end ⇲
     .alt ⭸
   tab ↹
