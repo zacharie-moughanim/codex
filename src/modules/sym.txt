@@ -1323,6 +1323,7 @@ control {
 
 // Characters commonly used as keyboards labels
 keyboard {
+  home ↸
   end ⇲
     .alt ⭸
   tab ↹
