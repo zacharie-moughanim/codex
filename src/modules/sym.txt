@@ -1356,9 +1356,6 @@ keyboard {
     .alt ⎆
   option ⌥
   clear ⌧
-  keyboard ⌨\vs{text}
-    .mouse 🖦
-    .wired 🖮
   insert ⎀
   underline
     .continuous ⎁
