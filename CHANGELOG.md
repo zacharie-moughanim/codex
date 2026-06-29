@@ -2,10 +2,24 @@
 
 ## Unreleased
 
+### Removals in `sym` **(Breaking change)**
+These previously deprecated items were removed:
+- `gt.tri.*`
+- `lt.tri.*`
+- `join`, `join.*`
+- `tack.r.double`
+- `tack.r.double.not`
+- `tack.l.double`
+- `tack.t.double`
+- `tack.b.double`
+
+## Version 0.3.0 (June 4, 2026)
+
 ### General changes
 
-- Trivially updated to Unicode 17.0.0
+- Updated to Unicode 17.0.0
 - Added numeral systems API under the `numeral-systems` feature flag
+  - Compared to Typst 0.14.2, added Tibetan numerals and Arabic letters in abjad order.
 
 ### New in `sym`
 
@@ -13,6 +27,9 @@
   - `underscore`: _
 
 - Mathematical symbols
+  - `pee`: ℘
+  - `mapsfrom`: ↤
+  - `mapsfrom.long` ⟻
   - `emptyset.zero`: ∅︀
   - `nothing.zero`: ∅︀
   - `union.serif`: ∪︀
@@ -20,49 +37,47 @@
   - `inter.serif`: ∩︀
   - `inter.sq.serif`: ⊓︀
   - `gt.double.nested`: ⪢
-  - `lt.double.nested`: ⪡
-  - `gt.arc` ⪧
-  - `gt.arc.eq` ⪩
-  - `lt.arc`: ⪦
-  - `lt.arc.eq`: ⪨
-  - `mapsfrom`: ↤
-  - `mapsfrom.long` ⟻
-  - `subset.approx`: ⫉
-  - `subset.closed`: ⫏
-  - `subset.closed.eq`: ⫑
-  - `subset.eq.dot`: ⫃
-  - `subset.equiv`: ⫅
-  - `subset.nequiv`: ⫋
-  - `subset.plus`: ⪿
-  - `subset.tilde`: ⫇
-  - `subset.times`: ⫁
-  - `supset.approx`: ⫊
-  - `supset.closed`: ⫐
-  - `supset.closed.eq`: ⫒
-  - `supset.eq.dot`: ⫄
-  - `supset.equiv`: ⫆
-  - `supset.nequiv`: ⫌
-  - `supset.plus`: ⫀
-  - `supset.tilde`: ⫈
-  - `supset.times`: ⫂
-  - `pee`: ℘
   - `gt.closed`: ⊳
+  - `gt.closed.not`: ⋫
   - `gt.closed.eq`: ⊵
   - `gt.closed.eq.not`: ⋭
-  - `gt.closed.not`: ⋫
+  - `gt.arc` ⪧
+  - `gt.arc.eq` ⪩
+  - `gt.quest`: ⩼
+  - `lt.double.nested`: ⪡
   - `lt.closed`: ⊲
+  - `lt.closed.not`: ⋪
   - `lt.closed.eq`: ⊴
   - `lt.closed.eq.not`: ⋬
-  - `lt.closed.not`: ⋪
-
-- Decorated mathematical symbols
+  - `lt.arc`: ⪦
+  - `lt.arc.eq`: ⪨
+  - `lt.quest`: ⩻
+  - `supset.closed`: ⫐
+  - `supset.closed.eq`: ⫒
+  - `supset.equiv`: ⫆
+  - `supset.nequiv`: ⫌
+  - `supset.tilde`: ⫈
+  - `supset.approx`: ⫊
+  - `supset.eq.dot`: ⫄
+  - `supset.plus`: ⫀
+  - `supset.times`: ⫂
+  - `subset.closed`: ⫏
+  - `subset.closed.eq`: ⫑
+  - `subset.equiv`: ⫅
+  - `subset.nequiv`: ⫋
+  - `subset.tilde`: ⫇
+  - `subset.approx`: ⫉
+  - `subset.eq.dot`: ⫃
+  - `subset.plus`: ⪿
+  - `subset.times`: ⫁
   - `plus.hat`: ⨣
   - `approx.hat`: ⩯
-  - `lt.quest`: ⩻
-  - `gt.quest`: ⩼
+  - `eq.dot`: ≐
   - `eq.ast`: ⩮
 
 - Miscellaneous technical
+  - `zero`: 0
+  - `zero.slashed`: 0︀
   - `bowtie.stroked`: ⋈
   - `bowtie.stroked.big`: ⨝
   - `bowtie.stroked.big.l`: ⟕
@@ -71,6 +86,12 @@
   - `bowtie.filled`: ⧓
   - `bowtie.filled.l`: ⧑
   - `bowtie.filled.r`: ⧒
+  - `tack.rr`: ⊨
+  - `tack.rr.not`: ⊭
+  - `tack.rrr`: ⫢
+  - `tack.ll`: ⫤
+  - `tack.tt`: ⫫
+  - `tack.bb`: ⫪
 
 - Arrows
   - `arrow.tr.bar`: 🢹
@@ -82,7 +103,7 @@
 - Currency
   - `riyal`: ⃁
 
-- Control (Printable symbols representing non-printable characters)
+- Printable symbols representing control characters, under a `control` submodule
   - `nul`: ␀
   - `soh`: ␁
   - `stx`: ␂
@@ -168,8 +189,9 @@
 - `gt.tri` and variants in favor of `gt.closed`
 - `lt.tri` and variants in favor of `lt.closed`
 - `join` and its variants in favor of `bowtie.big` with the same variants
+- `tack.r.double`, `tack.r.double.not`, `tack.l.double`, `tack.t.double`, and `tack.b.double` in favor of `tack.rr`, `tack.rr.not`, `tack.ll`, `tack.tt`, and `tack.bb` respectively.
 
-### Removals **(Breaking change)**
+### Removals in `sym` **(Breaking change)**
 
 These previously deprecated items were removed:
 - `paren.double.*`
