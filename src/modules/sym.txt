@@ -1350,7 +1350,6 @@ keyboard {
   alt ⎇
   esc ⎋
     .alt ⮹
-  printscreen ⎙
   enter ↵
     .alt ⏎
 }
