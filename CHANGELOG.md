@@ -119,39 +119,6 @@
   - `del`: ␡
   - `nl`: ␤
 
-- Keyboard labels (in submodule `keyboard`)
-  - `home` ↸
-  - `end`: ⇲
-  - `end.alt`: ⭸
-  - `tab`: ↹
-  - `tab.alt`: ⭾
-  - `tab.r`: ⇥
-  - `tab.r.alt`: ⭲
-  - `pageup`: ⇞
-  - `pageup.alt`: ⎗
-  - `pagedown`: ⇟
-  - `pagedown.alt`: ⎘
-  - `shift`: ⇧
-  - `capslock`: ⇪
-  - `capslock.pedestal`: ⇫
-  - `scroll`: ⇳
-  - `space`: ␣
-  - `erase.r`: ⌦
-  - `erase.l`: ⌫
-  - `cmd`: ⌘
-  - `option`: ⌥
-  - `clear`: ⌧
-  - `alt`: ⎇
-  - `esc`: ⎋
-  - `esc.alt`: ⮹
-  - `decimalsep`: ⎖
-  - `printscreen`: ⎙
-  - `return`: ⏎
-  - `return.alt`: ↵
-  - `newline.l`: ⮒
-  - `newline.r`: ⮓
-  - `newline.alt`: ↵
-
 ### New in `emoji`
 
 - `bigfoot`: 🫈
