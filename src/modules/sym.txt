@@ -1340,7 +1340,6 @@ keyboard {
   shift ⇧
   capslock ⇪
     .pedestal ⇫
-  scroll ⇳
   space ␣
   erase
     .r ⌦
@@ -1351,7 +1350,6 @@ keyboard {
   alt ⎇
   esc ⎋
     .alt ⮹
-  decimalsep ⎖
   printscreen ⎙
   enter ↵
     .alt ⏎
