@@ -1334,6 +1334,6 @@ keyboard {
   alt ⎇
   esc ⎋
     .alt ⮹
-  enter ↵
-    .alt ⏎
+  enter ⏎
+    .alt ↵
 }
