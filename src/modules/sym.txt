@@ -1326,8 +1326,8 @@ keyboard {
     .pedestal ⇫
   space ␣
   erase
-    .r ⌦
     .l ⌫
+    .r ⌦
   cmd ⌘
   option ⌥
   clear ⌧
