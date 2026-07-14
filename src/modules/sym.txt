@@ -1310,13 +1310,8 @@ control {
 spacebar ␣
 
 keyboard {
-  home ↸
-  end ⇲
-    .alt ⭸
   tab ↹
-    .alt ⭾
     .r ⇥
-    .r.alt ⭲
   pageup ⇞
     .alt ⎗
   pagedown ⇟
