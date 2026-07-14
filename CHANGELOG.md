@@ -103,6 +103,9 @@ These previously deprecated items were removed:
 - Currency
   - `riyal`: ⃁
 
+- Keyboard labels
+  - `spacebar`: ␣
+
 - Printable symbols representing control characters, under a `control` submodule
   - `nul`: ␀
   - `soh`: ␁
