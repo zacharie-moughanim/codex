@@ -1328,7 +1328,6 @@ keyboard {
   clear ⌧
   alt ⎇
   esc ⎋
-    .alt ⮹
   enter ⏎
     .alt ↵
 }
